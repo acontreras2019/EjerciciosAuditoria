@@ -5,7 +5,7 @@ public class Array4 {
         int count=0;
         for (int i=0; i<x.length; i++)
         {
-            if (x[i] >= 0)
+            if (x[i] > 0)
             {
                 count++;
             }

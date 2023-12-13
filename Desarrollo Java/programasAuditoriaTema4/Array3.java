@@ -2,7 +2,7 @@ public class Array3 {
     public int lastZero (int[] x) {
     //Devuelve el índice del último 0 en x
     //Si no existe 0 devuelve ‐1
-        for (int i=0; i<x.length-1; i++)
+        for (int i=0; i<=x.length-1; i++)
         {
             if (x[i] == 0)
             {

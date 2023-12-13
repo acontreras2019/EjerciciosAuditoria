@@ -1,7 +1,7 @@
 public class Array1 { 
 public static void main(String[] args) {
     //Devuelve el número de ocurrencias de 0 en x 
-    int x[]={1,1,-9}; 
+    int x[]={1,0,0}; 
     int count=0; 
     for (int i=1 ;  i<x.length; i++)
     {
